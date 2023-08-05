@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.2rem; 
+}
+th,td button {
+    padding: 10px;
+    border: none;
+    user-select: none;
+ }
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.container input{
+   width: 40%;
+padding: 5px;
+text-align: center;
+}
+.container label{
+margin-top: 30px;
+font-size: inherit;
+} 
+.buttons{
+    width: 65%;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.buttons button{
+padding: 10px;
+border-radius: 5px; 
+user-select: none;   
+} 
